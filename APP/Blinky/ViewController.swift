@@ -20,10 +20,6 @@ class ViewController: UIViewController {
     func godbinis(){
         
     }
-    
-    func bakabinish(){
-        
-    }
 
     
     func binish(){
