@@ -24,5 +24,9 @@ class ViewController: UIViewController {
     func bakabinish(){
         
     }
+    
+    func binish(){
+        
+    }
 }
 
