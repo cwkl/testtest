@@ -114,6 +114,7 @@
 		1038A0FD229138B900631364 /* Blinky */ = {
 			isa = PBXGroup;
 			children = (
+				1038A12D22913F7900631364 /* New Group */,
 				1038A0FE229138B900631364 /* AppDelegate.swift */,
 				1038A100229138B900631364 /* ViewController.swift */,
 				1038A102229138B900631364 /* Main.storyboard */,
@@ -140,6 +141,13 @@
 				1038A120229138BA00631364 /* Info.plist */,
 			);
 			path = BlinkyUITests;
+			sourceTree = "<group>";
+		};
+		1038A12D22913F7900631364 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		5AACE4A77FB5FB6246F650E2 /* Pods */ = {
