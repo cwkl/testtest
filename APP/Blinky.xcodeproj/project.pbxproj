@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1038A0FF229138B900631364 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1038A0FE229138B900631364 /* AppDelegate.swift */; };
+		1038A101229138B900631364 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1038A100229138B900631364 /* ViewController.swift */; };
+		1038A104229138B900631364 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1038A102229138B900631364 /* Main.storyboard */; };
+		1038A106229138BA00631364 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1038A105229138BA00631364 /* Assets.xcassets */; };
+		1038A109229138BA00631364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1038A107229138BA00631364 /* LaunchScreen.storyboard */; };
+		1038A114229138BA00631364 /* BlinkyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1038A113229138BA00631364 /* BlinkyTests.swift */; };
+		1038A11F229138BA00631364 /* BlinkyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1038A11E229138BA00631364 /* BlinkyUITests.swift */; };
+		59A991BFE21999007E0C9592 /* Pods_Blinky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 666402FF19515DCB83B47C17 /* Pods_Blinky.framework */; };
+		5BD30EEE6A8EE058DAF1DB23 /* Pods_BlinkyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E46A9FE9809DA94C8C0A46 /* Pods_BlinkyTests.framework */; };
+		A0C64296FC26999CEC666E2F /* Pods_BlinkyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF914DD8EBACA46A8733D5D /* Pods_BlinkyUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1038A110229138BA00631364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1038A0F3229138B900631364 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1038A0FA229138B900631364;
+			remoteInfo = Blinky;
+		};
+		1038A11B229138BA00631364 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1038A0F3229138B900631364 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1038A0FA229138B900631364;
+			remoteInfo = Blinky;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1038A0FB229138B900631364 /* Blinky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blinky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1038A0FE229138B900631364 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1038A100229138B900631364 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1038A103229138B900631364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1038A105229138BA00631364 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1038A108229138BA00631364 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1038A10A229138BA00631364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1038A10F229138BA00631364 /* BlinkyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlinkyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1038A113229138BA00631364 /* BlinkyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkyTests.swift; sourceTree = "<group>"; };
+		1038A115229138BA00631364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1038A11A229138BA00631364 /* BlinkyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlinkyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1038A11E229138BA00631364 /* BlinkyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkyUITests.swift; sourceTree = "<group>"; };
+		1038A120229138BA00631364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21E46A9FE9809DA94C8C0A46 /* Pods_BlinkyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinkyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26F4AA14EC568CE70EA045CC /* Pods-Blinky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blinky.release.xcconfig"; path = "Target Support Files/Pods-Blinky/Pods-Blinky.release.xcconfig"; sourceTree = "<group>"; };
+		2817765C7252459B470711A2 /* Pods-Blinky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blinky.debug.xcconfig"; path = "Target Support Files/Pods-Blinky/Pods-Blinky.debug.xcconfig"; sourceTree = "<group>"; };
+		5B196E6A9F83F9AD98DEAC40 /* Pods-BlinkyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkyUITests.release.xcconfig"; path = "Target Support Files/Pods-BlinkyUITests/Pods-BlinkyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5DBAE01258FE070F4858E09A /* Pods-BlinkyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkyUITests.debug.xcconfig"; path = "Target Support Files/Pods-BlinkyUITests/Pods-BlinkyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		666402FF19515DCB83B47C17 /* Pods_Blinky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blinky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD71899907BC975CA9648C7 /* Pods-BlinkyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkyTests.release.xcconfig"; path = "Target Support Files/Pods-BlinkyTests/Pods-BlinkyTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAF914DD8EBACA46A8733D5D /* Pods_BlinkyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinkyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E181360A3E3A410B0DA2AF98 /* Pods-BlinkyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkyTests.debug.xcconfig"; path = "Target Support Files/Pods-BlinkyTests/Pods-BlinkyTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1038A0F8229138B900631364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59A991BFE21999007E0C9592 /* Pods_Blinky.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1038A10C229138BA00631364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD30EEE6A8EE058DAF1DB23 /* Pods_BlinkyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1038A117229138BA00631364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C64296FC26999CEC666E2F /* Pods_BlinkyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1038A0F2229138B900631364 = {
+			isa = PBXGroup;
+			children = (
+				1038A0FD229138B900631364 /* Blinky */,
+				1038A112229138BA00631364 /* BlinkyTests */,
+				1038A11D229138BA00631364 /* BlinkyUITests */,
+				1038A0FC229138B900631364 /* Products */,
+				5AACE4A77FB5FB6246F650E2 /* Pods */,
+				91E3F12788B140BD0E1FFF4B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1038A0FC229138B900631364 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1038A0FB229138B900631364 /* Blinky.app */,
+				1038A10F229138BA00631364 /* BlinkyTests.xctest */,
+				1038A11A229138BA00631364 /* BlinkyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1038A0FD229138B900631364 /* Blinky */ = {
+			isa = PBXGroup;
+			children = (
+				1038A0FE229138B900631364 /* AppDelegate.swift */,
+				1038A100229138B900631364 /* ViewController.swift */,
+				1038A102229138B900631364 /* Main.storyboard */,
+				1038A105229138BA00631364 /* Assets.xcassets */,
+				1038A107229138BA00631364 /* LaunchScreen.storyboard */,
+				1038A10A229138BA00631364 /* Info.plist */,
+			);
+			path = Blinky;
+			sourceTree = "<group>";
+		};
+		1038A112229138BA00631364 /* BlinkyTests */ = {
+			isa = PBXGroup;
+			children = (
+				1038A113229138BA00631364 /* BlinkyTests.swift */,
+				1038A115229138BA00631364 /* Info.plist */,
+			);
+			path = BlinkyTests;
+			sourceTree = "<group>";
+		};
+		1038A11D229138BA00631364 /* BlinkyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1038A11E229138BA00631364 /* BlinkyUITests.swift */,
+				1038A120229138BA00631364 /* Info.plist */,
+			);
+			path = BlinkyUITests;
+			sourceTree = "<group>";
+		};
+		5AACE4A77FB5FB6246F650E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2817765C7252459B470711A2 /* Pods-Blinky.debug.xcconfig */,
+				26F4AA14EC568CE70EA045CC /* Pods-Blinky.release.xcconfig */,
+				E181360A3E3A410B0DA2AF98 /* Pods-BlinkyTests.debug.xcconfig */,
+				AAD71899907BC975CA9648C7 /* Pods-BlinkyTests.release.xcconfig */,
+				5DBAE01258FE070F4858E09A /* Pods-BlinkyUITests.debug.xcconfig */,
+				5B196E6A9F83F9AD98DEAC40 /* Pods-BlinkyUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		91E3F12788B140BD0E1FFF4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				666402FF19515DCB83B47C17 /* Pods_Blinky.framework */,
+				21E46A9FE9809DA94C8C0A46 /* Pods_BlinkyTests.framework */,
+				CAF914DD8EBACA46A8733D5D /* Pods_BlinkyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1038A0FA229138B900631364 /* Blinky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1038A123229138BB00631364 /* Build configuration list for PBXNativeTarget "Blinky" */;
+			buildPhases = (
+				E1006AEED61069C7276E2191 /* [CP] Check Pods Manifest.lock */,
+				1038A0F7229138B900631364 /* Sources */,
+				1038A0F8229138B900631364 /* Frameworks */,
+				1038A0F9229138B900631364 /* Resources */,
+				C27ED50A1F856E83AB52CACB /* [CP] Embed Pods Frameworks */,
+				1038A12C22913DF300631364 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blinky;
+			productName = Blinky;
+			productReference = 1038A0FB229138B900631364 /* Blinky.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1038A10E229138BA00631364 /* BlinkyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1038A126229138BB00631364 /* Build configuration list for PBXNativeTarget "BlinkyTests" */;
+			buildPhases = (
+				5289F12E6E08BB5443400A65 /* [CP] Check Pods Manifest.lock */,
+				1038A10B229138BA00631364 /* Sources */,
+				1038A10C229138BA00631364 /* Frameworks */,
+				1038A10D229138BA00631364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1038A111229138BA00631364 /* PBXTargetDependency */,
+			);
+			name = BlinkyTests;
+			productName = BlinkyTests;
+			productReference = 1038A10F229138BA00631364 /* BlinkyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1038A119229138BA00631364 /* BlinkyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1038A129229138BB00631364 /* Build configuration list for PBXNativeTarget "BlinkyUITests" */;
+			buildPhases = (
+				62FEBCECABC463F822853A23 /* [CP] Check Pods Manifest.lock */,
+				1038A116229138BA00631364 /* Sources */,
+				1038A117229138BA00631364 /* Frameworks */,
+				1038A118229138BA00631364 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1038A11C229138BA00631364 /* PBXTargetDependency */,
+			);
+			name = BlinkyUITests;
+			productName = BlinkyUITests;
+			productReference = 1038A11A229138BA00631364 /* BlinkyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1038A0F3229138B900631364 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Junhyeok Kwon";
+				TargetAttributes = {
+					1038A0FA229138B900631364 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1038A10E229138BA00631364 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1038A0FA229138B900631364;
+					};
+					1038A119229138BA00631364 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1038A0FA229138B900631364;
+					};
+				};
+			};
+			buildConfigurationList = 1038A0F6229138B900631364 /* Build configuration list for PBXProject "Blinky" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1038A0F2229138B900631364;
+			productRefGroup = 1038A0FC229138B900631364 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1038A0FA229138B900631364 /* Blinky */,
+				1038A10E229138BA00631364 /* BlinkyTests */,
+				1038A119229138BA00631364 /* BlinkyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1038A0F9229138B900631364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1038A109229138BA00631364 /* LaunchScreen.storyboard in Resources */,
+				1038A106229138BA00631364 /* Assets.xcassets in Resources */,
+				1038A104229138B900631364 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1038A10D229138BA00631364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1038A118229138BA00631364 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1038A12C22913DF300631364 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		5289F12E6E08BB5443400A65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlinkyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62FEBCECABC463F822853A23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BlinkyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C27ED50A1F856E83AB52CACB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Blinky/Pods-Blinky-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Blinky/Pods-Blinky-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1006AEED61069C7276E2191 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Blinky-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1038A0F7229138B900631364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1038A101229138B900631364 /* ViewController.swift in Sources */,
+				1038A0FF229138B900631364 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1038A10B229138BA00631364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1038A114229138BA00631364 /* BlinkyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1038A116229138BA00631364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1038A11F229138BA00631364 /* BlinkyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1038A111229138BA00631364 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1038A0FA229138B900631364 /* Blinky */;
+			targetProxy = 1038A110229138BA00631364 /* PBXContainerItemProxy */;
+		};
+		1038A11C229138BA00631364 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1038A0FA229138B900631364 /* Blinky */;
+			targetProxy = 1038A11B229138BA00631364 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1038A102229138B900631364 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1038A103229138B900631364 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1038A107229138BA00631364 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1038A108229138BA00631364 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1038A121229138BB00631364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1038A122229138BB00631364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1038A124229138BB00631364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2817765C7252459B470711A2 /* Pods-Blinky.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Blinky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lightair.Blinky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1038A125229138BB00631364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26F4AA14EC568CE70EA045CC /* Pods-Blinky.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Blinky/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lightair.Blinky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1038A127229138BB00631364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E181360A3E3A410B0DA2AF98 /* Pods-BlinkyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlinkyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lightair.BlinkyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blinky.app/Blinky";
+			};
+			name = Debug;
+		};
+		1038A128229138BB00631364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD71899907BC975CA9648C7 /* Pods-BlinkyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlinkyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lightair.BlinkyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blinky.app/Blinky";
+			};
+			name = Release;
+		};
+		1038A12A229138BB00631364 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DBAE01258FE070F4858E09A /* Pods-BlinkyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlinkyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lightair.BlinkyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Blinky;
+			};
+			name = Debug;
+		};
+		1038A12B229138BB00631364 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B196E6A9F83F9AD98DEAC40 /* Pods-BlinkyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlinkyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lightair.BlinkyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Blinky;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1038A0F6229138B900631364 /* Build configuration list for PBXProject "Blinky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1038A121229138BB00631364 /* Debug */,
+				1038A122229138BB00631364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1038A123229138BB00631364 /* Build configuration list for PBXNativeTarget "Blinky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1038A124229138BB00631364 /* Debug */,
+				1038A125229138BB00631364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1038A126229138BB00631364 /* Build configuration list for PBXNativeTarget "BlinkyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1038A127229138BB00631364 /* Debug */,
+				1038A128229138BB00631364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1038A129229138BB00631364 /* Build configuration list for PBXNativeTarget "BlinkyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1038A12A229138BB00631364 /* Debug */,
+				1038A12B229138BB00631364 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1038A0F3229138B900631364 /* Project object */;
+}
