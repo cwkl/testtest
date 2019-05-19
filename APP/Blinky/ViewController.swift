@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         
     }
 
-    func godbinish(){
+    func godbinis(){
         
     }
     
