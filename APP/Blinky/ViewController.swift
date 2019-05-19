@@ -34,6 +34,10 @@ class ViewController: UIViewController {
   func shineKwon() {
     
   }
+  
+  func apple() {
+    
+  }
 
 }
 
