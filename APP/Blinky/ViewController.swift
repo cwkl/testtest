@@ -29,6 +29,10 @@ class ViewController: UIViewController {
     func binish(){
         
     }
+    
+    func godkwon(){
+        
+    }
 
   
   func shineKwon() {
