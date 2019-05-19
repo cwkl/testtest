@@ -16,6 +16,7 @@
 		1038A11F229138BA00631364 /* BlinkyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1038A11E229138BA00631364 /* BlinkyUITests.swift */; };
 		59A991BFE21999007E0C9592 /* Pods_Blinky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 666402FF19515DCB83B47C17 /* Pods_Blinky.framework */; };
 		5BD30EEE6A8EE058DAF1DB23 /* Pods_BlinkyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E46A9FE9809DA94C8C0A46 /* Pods_BlinkyTests.framework */; };
+		64C5B73422914C1B00D6AE90 /* BinishController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C5B73322914C1B00D6AE90 /* BinishController.swift */; };
 		A0C64296FC26999CEC666E2F /* Pods_BlinkyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF914DD8EBACA46A8733D5D /* Pods_BlinkyUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +56,7 @@
 		2817765C7252459B470711A2 /* Pods-Blinky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blinky.debug.xcconfig"; path = "Target Support Files/Pods-Blinky/Pods-Blinky.debug.xcconfig"; sourceTree = "<group>"; };
 		5B196E6A9F83F9AD98DEAC40 /* Pods-BlinkyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkyUITests.release.xcconfig"; path = "Target Support Files/Pods-BlinkyUITests/Pods-BlinkyUITests.release.xcconfig"; sourceTree = "<group>"; };
 		5DBAE01258FE070F4858E09A /* Pods-BlinkyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkyUITests.debug.xcconfig"; path = "Target Support Files/Pods-BlinkyUITests/Pods-BlinkyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		64C5B73322914C1B00D6AE90 /* BinishController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinishController.swift; sourceTree = "<group>"; };
 		666402FF19515DCB83B47C17 /* Pods_Blinky.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Blinky.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD71899907BC975CA9648C7 /* Pods-BlinkyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlinkyTests.release.xcconfig"; path = "Target Support Files/Pods-BlinkyTests/Pods-BlinkyTests.release.xcconfig"; sourceTree = "<group>"; };
 		CAF914DD8EBACA46A8733D5D /* Pods_BlinkyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinkyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +123,7 @@
 				1038A105229138BA00631364 /* Assets.xcassets */,
 				1038A107229138BA00631364 /* LaunchScreen.storyboard */,
 				1038A10A229138BA00631364 /* Info.plist */,
+				64C5B73322914C1B00D6AE90 /* BinishController.swift */,
 			);
 			path = Blinky;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1038A101229138B900631364 /* ViewController.swift in Sources */,
+				64C5B73422914C1B00D6AE90 /* BinishController.swift in Sources */,
 				1038A0FF229138B900631364 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
