@@ -14,6 +14,7 @@
 		1038A109229138BA00631364 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1038A107229138BA00631364 /* LaunchScreen.storyboard */; };
 		1038A114229138BA00631364 /* BlinkyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1038A113229138BA00631364 /* BlinkyTests.swift */; };
 		1038A11F229138BA00631364 /* BlinkyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1038A11E229138BA00631364 /* BlinkyUITests.swift */; };
+		1038A12F22914C1B00631364 /* newnew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1038A12E22914C1B00631364 /* newnew.swift */; };
 		59A991BFE21999007E0C9592 /* Pods_Blinky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 666402FF19515DCB83B47C17 /* Pods_Blinky.framework */; };
 		5BD30EEE6A8EE058DAF1DB23 /* Pods_BlinkyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21E46A9FE9809DA94C8C0A46 /* Pods_BlinkyTests.framework */; };
 		A0C64296FC26999CEC666E2F /* Pods_BlinkyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF914DD8EBACA46A8733D5D /* Pods_BlinkyUITests.framework */; };
@@ -50,6 +51,7 @@
 		1038A11A229138BA00631364 /* BlinkyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlinkyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1038A11E229138BA00631364 /* BlinkyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkyUITests.swift; sourceTree = "<group>"; };
 		1038A120229138BA00631364 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1038A12E22914C1B00631364 /* newnew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newnew.swift; sourceTree = "<group>"; };
 		21E46A9FE9809DA94C8C0A46 /* Pods_BlinkyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlinkyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26F4AA14EC568CE70EA045CC /* Pods-Blinky.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blinky.release.xcconfig"; path = "Target Support Files/Pods-Blinky/Pods-Blinky.release.xcconfig"; sourceTree = "<group>"; };
 		2817765C7252459B470711A2 /* Pods-Blinky.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Blinky.debug.xcconfig"; path = "Target Support Files/Pods-Blinky/Pods-Blinky.debug.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				1038A105229138BA00631364 /* Assets.xcassets */,
 				1038A107229138BA00631364 /* LaunchScreen.storyboard */,
 				1038A10A229138BA00631364 /* Info.plist */,
+				1038A12E22914C1B00631364 /* newnew.swift */,
 			);
 			path = Blinky;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1038A101229138B900631364 /* ViewController.swift in Sources */,
+				1038A12F22914C1B00631364 /* newnew.swift in Sources */,
 				1038A0FF229138B900631364 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
